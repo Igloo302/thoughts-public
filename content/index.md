@@ -25,6 +25,16 @@ publish: true
 
 ## 📚 精选内容
 
+### 🤖 AI Workspace 模板系统
+专为 AI 从业者设计的 Obsidian 工作流模板：
+- 📋 项目管理系统
+- 🤖 Prompt 库管理
+- 👥 客户管理
+- 📤 输出管理
+- 📚 知识库管理
+
+[[AI-Workspace 模板/00-README]] - 查看完整模板系统
+
 ### 🔧 混合模式部署指南
 详细介绍如何结合 Quartz + Hugo 打造高效知识工作流：
 - Quartz 快速部署
@@ -32,11 +42,6 @@ publish: true
 - 自动化脚本配置
 
 [[混合模式部署指南]] - 查看完整教程
-
-### 🤖 AI 工作流
-- Obsidian 知识管理体系
-- Prompt 库和管理方法
-- 效率提升技巧
 
 ### 🛠️ 技术分享
 - HomeLab 搭建经验
