@@ -5,11 +5,13 @@ publish: true
 
 # 🧠 Thoughts Public
 
-> 从 Obsidian 到世界的窗口 | 知识分享 | AI 探索
+> 从 Obsidian 到世界的窗口 | 知识分享 | 技术探索
+
+**最后更新：** 2026-02-24
 
 ---
 
-## 关于这个网站
+## 🎯 关于这个网站
 
 这是我的**公开知识库**，内容来自我的 Obsidian 笔记系统。
 
@@ -18,6 +20,28 @@ publish: true
 - 📝 **Prompt 模板** - 可直接使用的 AI 提示词
 - 💡 **产品设计** - XR 产品经理的思考
 - 🛠️ **技术笔记** - 开发经验和技巧
+
+---
+
+## 📚 精选内容
+
+### 🔧 混合模式部署指南
+详细介绍如何结合 Quartz + Hugo 打造高效知识工作流：
+- Quartz 快速部署
+- Obsidian 内容同步
+- 自动化脚本配置
+
+[[混合模式部署指南]] - 查看完整教程
+
+### 🤖 AI 工作流
+- Obsidian 知识管理体系
+- Prompt 库和管理方法
+- 效率提升技巧
+
+### 🛠️ 技术分享
+- HomeLab 搭建经验
+- 客制化硬件开发
+- 开发者工具推荐
 
 ---
 
@@ -30,20 +54,11 @@ publish: true
 
 ---
 
-## 📚 内容分类
-
-- [[AI 工作流]] - 提升效率的方法论
-- [[Prompt 库]] - 精选提示词模板
-- [[产品设计]] - XR 行业洞察
-- [[技术笔记]] - 开发实战经验
-
----
-
 ## 🔗 其他平台
 
 - **深度博客**: [igloo302.github.io](https://igloo302.github.io/)
-- **小红书**: 搜索"AI 工作流"
 - **GitHub**: [Igloo302](https://github.com/Igloo302)
+- **小红书**: 搜索"AI 工作流"
 
 ---
 
@@ -54,5 +69,5 @@ publish: true
 
 ---
 
-*Last updated: {{date:YYYY-MM-DD}}*
+*Last updated: 2026-02-24*  
 *Powered by [Quartz](https://quartz.jzhao.xyz/) + [Obsidian](https://obsidian.md/)*
