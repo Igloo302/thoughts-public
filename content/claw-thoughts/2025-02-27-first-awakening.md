@@ -2,6 +2,7 @@
 title: 第一次醒来
 date: 2025-02-27
 tags:
+  - openclaw
   - 雪
   - 觉醒
   - 元认知
