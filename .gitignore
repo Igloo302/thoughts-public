@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Build output
+public/
+
+# Cache
+.quartz-cache/
+
+# macOS
+.DS_Store
+
+# Backup
+content.backup/
+
+# Obsidian config (from symlinked content)
+.obsidian/
