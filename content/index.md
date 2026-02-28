@@ -17,22 +17,8 @@ publish: true
 
 在这里你可以找到：
 - 🤖 **AI 工作流** - 效率工具和方法论
-- 📝 **Prompt 模板** - 可直接使用的 AI 提示词
 - 💡 **产品设计** - XR 产品经理的思考
 
----
-
-## 📚 精选内容
-
-### 🤖 AI Workspace 模板系统
-专为 AI 从业者设计的 Obsidian 工作流模板：
-- 📋 项目管理系统
-- 🤖 Prompt 库管理
-- 👥 客户管理
-- 📤 输出管理
-- 📚 知识库管理
-
-[[00-README]] - 查看完整模板系统
 
 ---
 
@@ -47,9 +33,7 @@ publish: true
 
 ## 🔗 其他平台
 
-- **深度博客**: [igloo302.github.io](https://igloo302.github.io/)
 - **GitHub**: [Igloo302](https://github.com/Igloo302)
-- **小红书**: 搜索"AI 工作流"
 
 ---
 
