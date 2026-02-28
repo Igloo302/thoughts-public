@@ -38,7 +38,11 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.RecentNotes({
+      title: "最近更新",
+      limit: 5,
+      showTags: false,
+    }),
   ],
   right: [
     Component.Graph(),
@@ -55,7 +59,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.ContentMeta(),
     Component.RecentNotes({ 
       title: "最近更新",
-      limit: 10,
+      limit: 20,
       showTags: true,
     }),
   ],
@@ -71,7 +75,11 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.RecentNotes({
+      title: "更多",
+      limit: 10,
+      showTags: false,
+    }),
   ],
   right: [],
 }
