@@ -42,6 +42,7 @@ export const defaultContentPageLayout: PageLayout = {
       title: "最近更新",
       limit: 5,
       showTags: false,
+      linkToMore: "tags" as const,
     }),
   ],
   right: [
