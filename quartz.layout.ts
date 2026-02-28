@@ -58,11 +58,6 @@ export const defaultListPageLayout: PageLayout = {
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
     Component.ContentMeta(),
-    Component.RecentNotes({ 
-      title: "最近更新",
-      limit: 20,
-      showTags: true,
-    }),
   ],
   left: [
     Component.PageTitle(),
@@ -77,9 +72,10 @@ export const defaultListPageLayout: PageLayout = {
       ],
     }),
     Component.RecentNotes({
-      title: "更多",
-      limit: 10,
+      title: "最近更新",
+      limit: 5,
       showTags: false,
+      linkToMore: "tags" as const,
     }),
   ],
   right: [],
