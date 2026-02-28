@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "zh-CN",
-    baseUrl: "https://igloo302.github.io/thoughts-public",
+    baseUrl: "igloo302.github.io/thoughts-public",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
@@ -71,7 +71,7 @@ const config: QuartzConfig = {
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ 
         markdownLinkResolution: "absolute",
-        baseUrl: "https://igloo302.github.io/thoughts-public",
+        baseUrl: "igloo302.github.io/thoughts-public",
       }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
