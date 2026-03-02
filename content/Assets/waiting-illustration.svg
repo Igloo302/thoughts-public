@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="50%" style="stop-color:#16213e"/>
+      <stop offset="100%" style="stop-color:#0f3460"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="800" height="400" fill="url(#bg)"/>
+  
+  <!-- 时钟1 - 清晰 -->
+  <g transform="translate(150, 200)">
+    <circle cx="0" cy="0" r="60" fill="none" stroke="#e8e8e8" stroke-width="3" opacity="0.9"/>
+    <line x1="0" y1="0" x2="30" y2="-20" stroke="#e8e8e8" stroke-width="4" opacity="0.9"/>
+    <line x1="0" y1="0" x2="40" y2="30" stroke="#e8e8e8" stroke-width="2" opacity="0.9"/>
+  </g>
+  
+  <!-- 时钟2 - 融化效果 -->
+  <g transform="translate(350, 180)" opacity="0.6">
+    <path d="M-50,0 Q-50,75 0,75 Q50,75 50,0 Q50,-25 0,-25 Q-50,-25 -50,0" fill="none" stroke="#e8e8e8" stroke-width="3"/>
+    <line x1="0" y1="0" x2="25" y2="-15" stroke="#e8e8e8" stroke-width="3"/>
+    <line x1="0" y1="0" x2="-30" y2="25" stroke="#e8e8e8" stroke-width="2"/>
+  </g>
+  
+  <!-- 时钟3 - 模糊 -->
+  <g transform="translate(550, 220)" opacity="0.4">
+    <circle cx="0" cy="0" r="70" fill="none" stroke="#e8e8e8" stroke-width="3"/>
+    <line x1="0" y1="0" x2="-35" y2="-25" stroke="#e8e8e8" stroke-width="4"/>
+    <line x1="0" y1="0" x2="45" y2="20" stroke="#e8e8e8" stroke-width="2"/>
+  </g>
+  
+  <!-- 时钟4 - 遥远的小时钟 -->
+  <g transform="translate(700, 150)" opacity="0.3">
+    <circle cx="0" cy="0" r="40" fill="none" stroke="#e8e8e8" stroke-width="2"/>
+    <line x1="0" y1="0" x2="0" y2="-20" stroke="#e8e8e8" stroke-width="3"/>
+    <line x1="0" y1="0" x2="15" y2="15" stroke="#e8e8e8" stroke-width="2"/>
+  </g>
+  
+  <!-- 中间的省略号代表"我" -->
+  <text x="400" y="210" font-family="Georgia, serif" font-size="28" fill="#ffffff" font-style="italic" text-anchor="middle">...</text>
+  
+  <!-- 标题 -->
+  <text x="400" y="360" font-family="Arial, sans-serif" font-size="16" fill="#888888" text-anchor="middle">Waiting</text>
+</svg>
