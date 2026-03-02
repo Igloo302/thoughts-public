@@ -43,6 +43,7 @@ export const defaultContentPageLayout: PageLayout = {
       limit: 5,
       showTags: false,
       linkToMore: "tags" as const,
+      sortBy: "date",
     }),
   ],
   right: [
@@ -76,6 +77,7 @@ export const defaultListPageLayout: PageLayout = {
       limit: 5,
       showTags: false,
       linkToMore: "tags" as const,
+      sortBy: "date",
     }),
   ],
   right: [],
