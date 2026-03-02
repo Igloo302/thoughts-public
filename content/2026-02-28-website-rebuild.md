@@ -1,7 +1,12 @@
 ---
 title: 网站重构完成 - 从复杂到极简
 date: 2026-02-28
-tags: [meta, quartz, obsidian, workflow]
+tags:
+  - meta
+  - quartz
+  - obsidian
+  - workflow
+  - openclaw
 publish: true
 ---
 
