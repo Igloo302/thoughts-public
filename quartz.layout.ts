@@ -38,13 +38,7 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.RecentNotes({
-      title: "最近更新",
-      limit: 5,
-      showTags: false,
-      linkToMore: "tags" as const,
-      sortBy: "date",
-    }),
+    Component.Explorer(),
   ],
   right: [
     Component.Graph(),
@@ -55,11 +49,7 @@ export const defaultContentPageLayout: PageLayout = {
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [
-    Component.Breadcrumbs(),
-    Component.ArticleTitle(),
-    Component.ContentMeta(),
-  ],
+  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
@@ -72,13 +62,7 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.RecentNotes({
-      title: "最近更新",
-      limit: 5,
-      showTags: false,
-      linkToMore: "tags" as const,
-      sortBy: "date",
-    }),
+    Component.Explorer(),
   ],
   right: [],
 }
