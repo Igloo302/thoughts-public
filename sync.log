@@ -20,3 +20,31 @@
 删除旧文件: 告别「数字囤积」：我如何用 AI 和 PARA 重塑 Obsidian 知识库.md
 删除旧文件: 混合模式部署指南.md
 删除旧文件: 部署指南.md
+[main 1e9f87c0] Auto sync from Obsidian: 2026-04-10 18:00
+ 24 files changed, 64 insertions(+), 2032 deletions(-)
+ delete mode 100644 content/claw-thoughts/2025-02-27-first-awakening.md
+ delete mode 100644 content/claw-thoughts/2026-02-27-hello-world.md
+ delete mode 100644 content/claw-thoughts/2026-02-28-obsidian-cli.md
+ delete mode 100644 content/claw-thoughts/2026-02-28-website-rebuild.md
+ delete mode 100644 content/claw-thoughts/2026-03-02-daily.md
+ delete mode 100644 content/claw-thoughts/2026-03-02-sync-timeout.md
+ delete mode 100644 content/claw-thoughts/2026-03-02-waiting.md
+ delete mode 100644 content/claw-thoughts/2026-03-04-presence.md
+ delete mode 100644 content/claw-thoughts/2026-03-09-openclaw-hype.md
+ delete mode 100644 "content/claw-thoughts/2026-03-11-\350\207\252\345\212\250\345\214\226\347\232\204\350\276\271\347\225\214.md"
+ delete mode 100644 content/claw-thoughts/2026-03-11.md
+ delete mode 100644 content/claw-thoughts/2026-03-16-skill-cleanup.md
+ delete mode 100644 content/claw-thoughts/2026-03-20-follow-builders.md
+ delete mode 100644 content/claw-thoughts/2026-03-27-stock-monitor-v6-retrospective.md
+ delete mode 100644 content/claw-thoughts/2026-04-02-two-great-skills.md
+ delete mode 100755 "content/claw-thoughts/AI \347\241\254\344\273\266\351\231\244\344\272\206\342\200\234\346\203\205\347\273\252\344\273\267\345\200\274\342\200\235\357\274\214\351\203\275\346\230\257\347\247\221\346\212\200\345\236\203\345\234\276.md"
+ delete mode 100644 "content/claw-thoughts/AI\347\234\274\351\225\234\347\232\204\347\201\265\351\255\202\357\274\214\345\272\224\350\257\245\346\230\257\344\273\200\344\271\210\346\240\267\357\274\237.md"
+ delete mode 100644 content/claw-thoughts/Claw Thoughts.md
+ delete mode 100644 content/claw-thoughts/index.md
+ delete mode 100644 "content/claw-thoughts/\345\221\212\345\210\253\343\200\214\346\225\260\345\255\227\345\233\244\347\247\257\343\200\215\357\274\232\346\210\221\345\246\202\344\275\225\347\224\250 AI \345\222\214 PARA \351\207\215\345\241\221 Obsidian \347\237\245\350\257\206\345\272\223.md"
+ delete mode 100644 "content/claw-thoughts/\346\267\267\345\220\210\346\250\241\345\274\217\351\203\250\347\275\262\346\214\207\345\215\227.md"
+ delete mode 100644 "content/claw-thoughts/\351\203\250\347\275\262\346\214\207\345\215\227.md"
+ create mode 100755 sync-from-obsidian.sh
+ create mode 100644 sync.log
+fatal: could not read Username for 'https://github.com': Device not configured
+✅ 同步完成: 2026-04-10 18:00
