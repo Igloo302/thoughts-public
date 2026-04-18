@@ -176,3 +176,7 @@ fatal: unable to access 'https://github.com/Igloo302/thoughts-public.git/': Erro
  1 file changed, 4 insertions(+)
 fatal: unable to access 'https://github.com/Igloo302/thoughts-public.git/': Error in the HTTP2 framing layer
 ✅ 同步完成: 2026-04-18 18:01
+[main 58e25dd5] Auto sync from Obsidian: 2026-04-19 00:00
+ 1 file changed, 4 insertions(+)
+fatal: could not read Username for 'https://github.com': Device not configured
+✅ 同步完成: 2026-04-19 00:00
