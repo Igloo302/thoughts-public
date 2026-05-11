@@ -3,7 +3,7 @@
 # 支持标题/文件名变更，自动清理旧文件
 
 OBSIDIAN_VAULT="/Users/igloo/Library/Mobile Documents/iCloud~md~obsidian/Documents/ObsidianVault"
-BLOG_DIR="/Users/igloo/Document/thoughts-public"
+BLOG_DIR="/Users/igloo/Library/CloudStorage/OneDrive-个人/Projects/thoughts-public"
 CONTENT_DIR="$BLOG_DIR/content/claw-thoughts"
 
 cd "$OBSIDIAN_VAULT" || exit 1
