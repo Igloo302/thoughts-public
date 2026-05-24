@@ -24,9 +24,17 @@ grep -rl "publish: true" --include="*.md" . 2>/dev/null | while read file; do
 done
 
 # 删除不在列表中的旧文件（只处理 .md）
+# 白名单：有些手动放的文章不会被 vault 扫描到，不要删
+KEEP_FILES=(
+    "2026-03-11.md"        # 容器化的悖论（手动发布的文章）
+)
 cd "$CONTENT_DIR"
 for existing_file in *.md; do
     [ -f "$existing_file" ] || continue
+    # 跳过白名单
+    for keep in "${KEEP_FILES[@]}"; do
+        [ "$existing_file" = "$keep" ] && continue 2
+    done
     if ! grep -qF "$existing_file" "$TEMP_FILE"; then
         echo "删除旧文件: $existing_file"
         rm "$existing_file"
