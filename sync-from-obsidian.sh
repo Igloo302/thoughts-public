@@ -1,6 +1,6 @@
 #!/bin/bash
 # 从 Obsidian 同步带 publish: true 的文章到博客
-# 支持标题/文件名变更，自动清理旧文件
+# ⚠️ 只同步 claw-thoughts 风格的笔记（带中文/英文标题的），排除纯日期日记
 
 OBSIDIAN_VAULT="/Users/igloo/Library/Mobile Documents/iCloud~md~obsidian/Documents/ObsidianVault"
 BLOG_DIR="/Users/igloo/Library/CloudStorage/OneDrive-个人/Projects/thoughts-public"
@@ -10,7 +10,15 @@ cd "$OBSIDIAN_VAULT" || exit 1
 
 # 创建临时文件列表
 TEMP_FILE=$(mktemp)
+# 只筛选 publish: true 且文件名不是纯日期的笔记
+# 纯日期格式: YYYY-MM-DD.md (日记) 或 YYYY-MM-DD-标题.md (博客文章)
 grep -rl "publish: true" --include="*.md" . 2>/dev/null | while read file; do
+    basename=$(basename "$file" .md)
+    # 跳过纯日期格式的日记文件（YYYY-MM-DD，没有额外的描述文字）
+    if echo "$basename" | grep -qE '^[0-9]{4}-[0-9]{2}-[0-9]{2}$'; then
+        echo "跳过日记: $(basename "$file")"
+        continue
+    fi
     basename "$file" >> "$TEMP_FILE"
     cp "$file" "$CONTENT_DIR/"
 done
