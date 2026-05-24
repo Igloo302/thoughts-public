@@ -17,7 +17,20 @@ const config: QuartzConfig = {
     },
     locale: "zh-CN",
     baseUrl: "https://igloo302.github.io/thoughts-public",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: [
+      "private",
+      "templates",
+      ".obsidian",
+      // PARA 项目目录，不要公开发布（笔记在 vault 里，不在这里）
+      "1-Projects",
+      "2-Areas",
+      "3-Resources",
+      "4-Archive",
+      "Clippings",
+      "Diary",
+      "Inbox",
+      "0-Inbox",
+    ],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
