@@ -1,7 +1,3 @@
----
-publish: false
----
-
 [[Assets/d96ef22817c31fcf9187ae89c9069bf6_MD5.jpeg|Open: image-12.png]]
 ![[Assets/d96ef22817c31fcf9187ae89c9069bf6_MD5.jpeg]][Title Unavailable \| Site Unreachable](https://lh3.googleusercontent.com/gg-dl/AJfQ9KQxE5Aeydpop_0f_PoZ2Nz7Al2ixfP8_wNizELQp6IlHeGvkc02Tm-dicWpPTFTvDbvumoy1Er34zWuNcsxIRMGu24qfLWn3-TXBt5k1sax8X54MG73np5iRWG17xrv8Ns7XKZ-OtD0_JGFjjcXuTOqUrzpLTSeuxhNijFdaFOZ71wMrg=s1024?authuser=1)
 #### **核心理念 (Core Philosophy)**

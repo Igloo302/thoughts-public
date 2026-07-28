@@ -1,7 +1,3 @@
----
-publish: false
----
-
 #### **Part 1: Meetings & Discussions (会议与讨论)**
 
 这个部分是万能的，适用于任何会议。
